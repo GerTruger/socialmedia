@@ -1,0 +1,66 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  width: 75px;
+  height: 75px;
+  margin-left: 0;
+  -webkit-transition-property: width;
+  transition-property: width;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  color: white;
+}
+
+main {
+  float: right;
+  margin-top: 25%;
+}
+
+main .blog {
+  background-color: #e17b77;
+  text-align: center;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+main .blog .fa-laptop-code::before {
+  content: "\f5fc";
+}
+
+main .blog:hover {
+  width: 400px;
+  background-color: #e17b77;
+  cursor: pointer;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
+main .twitter {
+  background-color: #00aced;
+}
+
+main .twitter:hover {
+  width: 400px;
+  background-color: #00aced;
+  cursor: pointer;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
+main .facebook {
+  background-color: #3b5998;
+}
+
+main .github {
+  background-color: #333;
+}
+
+main .linkedin {
+  background-color: #007bb6;
+}
+/*# sourceMappingURL=assig3.css.map */

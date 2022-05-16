@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div { 
+    
+    width:75px;
+    height: 75px;
+    margin-left: 0;
+    transition-property: width;
+    transition-duration: 1s;
+    color: white;  
+       
+}
+main {
+    
+ float: right;
+    margin-top: 25%;
+
+.blog {
+        background-color:#e17b77 ;
+        text-align: center;
+        text-decoration-line: underline;
+        .fa-laptop-code::before {
+            content: "\f5fc";
+        }
+
+&:hover{
+      width: 400px;
+      background-color:#e17b77 ;
+      cursor: pointer;
+      transition-delay: 1s;
+}
+}
+.twitter{
+    
+        background-color: #00aced;
+        &:hover{
+            width: 400px;
+            background-color:#00aced ;
+            cursor: pointer;
+            transition-delay: 1s;
+      }
+
+}
+.facebook{
+    background-color: #3b5998; 
+}
+.github{
+    background-color: #333;
+}
+.linkedin{
+    background-color: #007bb6;
+}
+}
